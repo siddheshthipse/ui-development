@@ -22,11 +22,33 @@ const icons: IconDefinition[] = Object.keys(antDesignIcons).map(key => antDesign
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { ProjectCreationComponent } from './components/project-creation/project-creation.component';
+import { NewLoginPageComponent } from './components/new-login-page/new-login-page.component';
+import { EditProjectTemplateComponent } from './components/edit-project-template/edit-project-template.component';
+import { FilterPipe } from './pipe/filter.pipe';
+import { SampleSearchComponent } from './sample-search/sample-search.component';
+import { AuthServiceConfig, GoogleLoginProvider  } from 'angularx-social-login';
+
+const config = new AuthServiceConfig([
+  {
+    id: GoogleLoginProvider.PROVIDER_ID,
+    provider: new GoogleLoginProvider('737706466412-uuumub4vohnks8u5n4hhjd1g2rqr5rot.apps.googleusercontent.com')
+  }
+]);
+
+export function provideConfig() {
+  return config;
+}
 
 @NgModule({
   declarations: [
     AppComponent,
-    DashboardComponent
+    DashboardComponent,
+    ProjectCreationComponent,
+    NewLoginPageComponent,
+    EditProjectTemplateComponent,
+    FilterPipe,
+    SampleSearchComponent
   ],
   imports: [
     BrowserModule,
@@ -37,9 +59,16 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
     NgZorroAntdModule, 
     BrowserAnimationsModule, 
     ScrollingModule, 
-    DragDropModule
+    DragDropModule,
   ],
-  providers: [{ provide: NZ_I18N, useValue: en_US }, { provide: NZ_ICONS, useValue: icons } ],
+  providers: [
+    { provide: NZ_I18N, useValue: en_US }, 
+    { provide: NZ_ICONS, useValue: icons },
+    {
+      provide: AuthServiceConfig,
+      useFactory: provideConfig
+    },
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

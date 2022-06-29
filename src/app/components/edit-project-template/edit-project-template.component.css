@@ -1,0 +1,19 @@
+nz-header {
+  background: #fff;
+  padding: 0;
+}
+
+nz-content {
+  margin: 0 16px;
+}
+
+.inner-content {
+  background: #fff;
+  min-height: 360px;
+}
+
+.kt-button {
+  color: white;
+  background-color: #a21129;
+  border-color: #a21129;
+}

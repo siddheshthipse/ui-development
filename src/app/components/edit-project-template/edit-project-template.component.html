@@ -1,0 +1,337 @@
+<nz-layout>
+    <nz-layout>
+        <nz-header>
+        </nz-header>
+        <nz-content>
+            <div class="inner-content mt-3 p-3">
+                <div class="row">
+                    <div class="col-md-6 d-flex justify-content-start mt-1">
+                        <h5>Edit your Transformation Project Template</h5>
+                    </div>
+                    <div class="col-md-6 d-flex justify-content-end">
+                        <button class="mr-2" nz-button nzType="default">Cancel</button>
+                        <button class="kt-button" nz-button nzType="primary">Create Transformation Project</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 d-flex justify-content-end">
+                        <span style="color: #20BF6B;font-style: italic;">You're ready to launch</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 d-flex flex-column">
+                        <div>
+                            <strong><span style="color: red;" class="mr-1">*</span>Project Name</strong>
+                        </div>
+                        <div class="mt-1">
+                            <nz-input-group [nzSuffix]="suffixIconSearch">
+                                <input type="text" nz-input placeholder="Project Name" [value]="projectName" />
+                            </nz-input-group>
+                            <ng-template #suffixIconSearch>
+                                <i nz-icon nzType="check-circle" nzTheme="outline" style="color: green;"></i>
+                            </ng-template>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-12">
+                        <nz-collapse>
+                            <nz-collapse-panel nzHeader="Edit Project Details" nzActive='true'>
+                                <div class="row">
+                                    <div class="col-md-6 d-flex flex-column">
+                                        <div>
+                                            <strong>Project ID</strong>
+                                        </div>
+                                        <div class="mt-1">
+                                            <nz-input-group [nzSuffix]="suffixIconSearch">
+                                                <input type="text" nz-input placeholder="Project Name"
+                                                    [value]="projectID" />
+                                            </nz-input-group>
+                                            <ng-template #suffixIconSearch>
+                                                <i nz-icon nzType="check-circle" nzTheme="outline"
+                                                    style="color: green;"></i>
+                                            </ng-template>
+                                        </div>
+                                        <div class="mt-3">
+                                            <strong>Organizations</strong>
+                                        </div>
+                                        <div class="mt-1">
+                                            <nz-select style="width: 100%;" [nzMaxTagCount]="5"
+                                                [nzMaxTagPlaceholder]="tagPlaceHolder" nzMode="multiple"
+                                                nzPlaceHolder="Please select" [(ngModel)]="orgSelectedValue">
+                                                <nz-option *ngFor="let item of orgList" [nzLabel]="item"
+                                                    [nzValue]="item"></nz-option>
+                                            </nz-select>
+                                            <ng-template #tagPlaceHolder let-selectedList> and {{ selectedList.length }}
+                                                more selected </ng-template>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 d-flex flex-column">
+                                        <div>
+                                            <strong>Timeline</strong>
+                                        </div>
+                                        <div class="mt-1">
+                                            <nz-range-picker></nz-range-picker>
+                                        </div>
+                                        <div class="mt-3">
+                                            <div class="row">
+                                                <div class="col-md-6 d-flex flex-column">
+                                                    <div><strong>Calendar</strong></div>
+                                                    <div class="mt-1">
+                                                        <nz-tag [nzColor]="'#108ee9'">Standard US Calendar</nz-tag>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div><strong>Product Version</strong></div>
+                                                    <div class="mt-1">
+                                                        <nz-tag [nzColor]="'#108ee9'">S/4HANA 2021</nz-tag>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </nz-collapse-panel>
+                            <nz-collapse-panel nzHeader="Update Digital Entities" nzActive='true'>
+                                <!-- CRAPPY BUTTON ROW -->
+                                <div class="row">
+                                    <div class="col-md-12 d-flex justify-content-around">
+                                        <div>
+                                            <button nz-button nzType="primary" [nzSize]="'small'" nzShape="round">
+                                                Workplace
+                                            </button>
+                                        </div>
+                                        <div>
+                                            <button nz-button nzType="default" [nzSize]="'small'" nzShape="round">
+                                                Maps
+                                            </button>
+                                        </div>
+                                        <div>
+                                            <button nz-button nzType="default" [nzSize]="'small'" nzShape="round">
+                                                Projects
+                                            </button>
+                                        </div>
+                                        <div>
+                                            <button nz-button nzType="default" [nzSize]="'small'" nzShape="round">
+                                                Process
+                                            </button>
+                                        </div>
+                                        <div>
+                                            <button nz-button nzType="default" [nzSize]="'small'" nzShape="round">
+                                                Labs
+                                            </button>
+                                        </div>
+                                        <div>
+                                            <button nz-button nzType="default" [nzSize]="'small'" nzShape="round">
+                                                Mines
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mt-2">
+                                    <div class="col-md-3 d-flex flex-column">
+                                        <div class="mt-2" style="text-align: center;"><strong>Digital Entities</strong>
+                                        </div>
+                                        <div class="mt-2" style="text-align: center;">Tasks</div>
+                                        <div class="mt-2" style="text-align: center;">Issues</div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="mt-2" style="text-align: center;"><strong>Create Model Data</strong>
+                                        </div>
+                                        <div class="mt-2" style="text-align: center;">
+                                            <nz-switch [ngModel]="true" [nzCheckedChildren]="checkedTemplate"
+                                                [nzUnCheckedChildren]="unCheckedTemplate"></nz-switch>
+                                        </div>
+                                        <div class="mt-2" style="text-align: center;">
+                                            <nz-switch [ngModel]="true" [nzCheckedChildren]="checkedTemplate"
+                                                [nzUnCheckedChildren]="unCheckedTemplate"></nz-switch>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="mt-2" style="text-align: center;"><strong>Actions</strong></div>
+                                        <div class="mt-2" style="text-align: center;"><button class="mr-2" nz-button
+                                                nzSize="small" nzType="default"
+                                                (click)="showInviteImport()">Invite</button><button nz-button
+                                                nzSize="small" nzType="default">Import</button></div>
+                                        <div class="mt-2" style="text-align: center;"><button class="mr-2" nz-button
+                                                nzSize="small" nzType="default">Invite</button><button nz-button
+                                                nzSize="small" nzType="default">Import</button></div>
+                                        <div class="mt-2" style="font-style: italic;color: #e13f00;text-align: center;">
+                                            Any number of users can be invited for free</div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="mt-2" style="text-align: center;"><strong>Status</strong></div>
+                                        <div class="mt-2" style="text-align: center;">300 tasks ready for creation</div>
+                                        <div class="mt-2" style="text-align: center;">No issues ready for creation</div>
+                                    </div>
+                                </div>
+                            </nz-collapse-panel>
+                            <nz-collapse-panel nzHeader="Learn more about this transformation project" nzActive='true'>
+                                <div class="row">
+                                    <div class="col-md-8 d-flex flex-column">
+                                        <div><strong>About Transformation Project</strong></div>
+                                        <div class="flex-wrap">
+                                            <p>This project is designed specifically for IT teams, the IT service
+                                                management template facilitates high-velocity service management.
+                                                Containing powerful ITSM categories with dedicated features, it can help
+                                                you resolve incidents, approve changes and fix problems fast</p>
+                                        </div>
+                                        <div>
+                                            <a href="http://"><strong style="text-decoration: underline;">View Model
+                                                    Transformation Project</strong></a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 d-flex flex-column">
+                                        <div><strong>Use Case</strong></div>
+                                        <div>
+                                            <nz-tag [nzColor]="'#108ee9'">Greenfield Implementation</nz-tag>
+                                        </div>
+                                        <div class="mt-1"><strong>Industry</strong></div>
+                                        <div>
+                                            <nz-tag [nzColor]="'#108ee9'">Automotive</nz-tag>
+                                        </div>
+                                        <div class="mt-1"><strong>Product</strong></div>
+                                        <div>
+                                            <nz-tag [nzColor]="'#108ee9'">S/4HANA</nz-tag>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mt-3">
+                                    <div class="col-md-8 d-flex flex-column">
+                                        <div><strong>What you'll get</strong></div>
+                                        <div class="flex-wrap">
+                                            <p>Digital Maps is aimed planning the S/4HANA with data-driven
+                                                hyperautomation across landscape, process, custom objects. Digital Maps
+                                                is aimed planning the S/4HANA with data-driven hyperautomation across
+                                                landscape, process, custom objects </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div><strong>Who can experience</strong></div>
+                                        <div>
+                                            <li>Project Manager</li>
+                                            <li>IT Consultant</li>
+                                            <li>Process Head</li>
+                                            <li>Tester</li>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mt-3">
+                                    <div class="col-md-8 d-flex flex-column">
+                                        <div><strong>Benefits</strong></div>
+                                        <li>Data to value outcomes</li>
+                                        <li>Integrity led experience</li>
+                                        <li>No-code and non-invasive</li>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div><strong>Recommended for</strong></div>
+                                        <div>
+                                            <li>SAP Consultants</li>
+                                            <li>System System Integrators</li>
+                                            <li>Process Head</li>
+                                            <li>Tester</li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </nz-collapse-panel>
+                        </nz-collapse>
+                    </div>
+                </div>
+            </div>
+        </nz-content>
+    </nz-layout>
+</nz-layout>
+
+<!-- IMPORT OR INVITE USER MODAL -->
+<nz-modal nzWidth="1000" [(nzVisible)]="inviteImportVisible" [nzTitle]="modalTitle" [nzContent]="modalContent"
+    [nzFooter]="modalFooter" (nzOnCancel)="inviteImportCancel()">
+    <ng-template #modalTitle>
+        Users | Digital Workplace
+    </ng-template>
+
+    <ng-template #modalContent>
+        <div class="row">
+            <div class="col-md-12">
+                <nz-radio-group [(ngModel)]="radioValue" [nzButtonStyle]="'solid'">
+                    <label nz-radio-button nzValue="Invite">Invite</label>
+                    <label nz-radio-button nzValue="Import">Import</label>
+                </nz-radio-group>
+            </div>
+        </div>
+        <div *ngIf="radioValue == 'Import'" class="row mt-4">
+            <div class="col-md-12 d-flex flex-column">
+                <div><strong>Step-1 Download Template</strong></div>
+                <div class="mt-2">
+                    <i class="fas fa-file-download mr-2"></i>
+                    <a href="./../../../assets/KTernAI_User_Import_Template.xlsx"
+                        download>KTernAI_User_Import_Template.xlsx</a>
+                </div>
+                <div class="mt-3"><strong>Step-2 Upload filled-in sheet</strong></div>
+                <div class="mt-2">
+                    <nz-upload nzAction="https://jsonplaceholder.typicode.com/posts/">
+                        <button nz-button><i nz-icon nzType="upload"></i><span>Upload</span></button>
+                    </nz-upload>
+                </div>
+            </div>
+        </div>
+        <div *ngIf="radioValue == 'Invite'" class="row mt-4">
+            <div class="col-md-12">
+                <form nz-form [formGroup]="validateForm">
+                    <nz-form-item *ngFor="let control of listOfControl; let i = index">
+                        <nz-form-control nzErrorTip="Please input passenger's name or delete this field.">
+                            <div class="row">
+                                <div class="col-md-12 d-flex flex-row">
+                                    <div class="flex-fill mr-2">
+                                        <strong *ngIf="i == 0">Email</strong>
+                                        <input class="flex-fill" nz-input placeholder="example@abc.com"
+                                            [attr.id]="control.id" [formControlName]="control.controlInstance1" />
+                                    </div>
+                                    <div class="flex-fill mr-2">
+                                        <strong *ngIf="i == 0">Access Level</strong>
+                                        <nz-select nzAllowClear nzPlaceHolder="Choose Access Level" [formControlName]="control.controlInstance2">
+                                            <nz-option nzValue="limited" nzLabel="Limited"></nz-option>
+                                            <nz-option nzValue="basic" nzLabel="Basic"></nz-option>
+                                            <nz-option nzValue="standard" nzLabel="Standard"></nz-option>
+                                            <nz-option nzValue="super" nzLabel="Super"></nz-option>
+                                        </nz-select>
+                                    </div>
+                                    <div class="flex-fill mr-2">
+                                        <strong *ngIf="i == 0">Firstname</strong>
+                                        <input class="flex-fill" nz-input placeholder="Firstname" [attr.id]="control.id"
+                                            [formControlName]="control.controlInstance3" />
+                                    </div>
+                                    <div>
+                                        <div *ngIf="i == 0">-</div>
+                                        <i class="fas fa-minus-circle mt-3" style="color: #e13f00;"
+                                            (click)="removeField(control, $event)"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </nz-form-control>
+                    </nz-form-item>
+                    <nz-form-item>
+                        <nz-form-control>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <button nz-button nzBlock nzType="dashed" class="add-button"
+                                        (click)="addField($event)">
+                                        <i nz-icon nzType="plus"></i>
+                                        Add User
+                                    </button>
+                                </div>
+                            </div>
+                        </nz-form-control>
+                    </nz-form-item>
+                </form>
+            </div>
+        </div>
+    </ng-template>
+
+    <ng-template #modalFooter>
+        <button nz-button nzType="default" (click)="inviteImportCancel()">Cancel</button>
+        <button nz-button nzType="primary" (click)="onSubmitForm()" [nzLoading]="validatingUsers">Submit</button>
+    </ng-template>
+</nz-modal>
+<!-- CHECKED UNCHECKED BUTTON CODE -->
+<ng-template #checkedTemplate><i nz-icon nzType="check"></i></ng-template>
+<ng-template #unCheckedTemplate><i nz-icon nzType="close"></i></ng-template>

@@ -1,0 +1,351 @@
+With effect from January 1, 2022
+
+KTern, an independent division of Kaar Technologies Inc, Suite 607, 4100. Spring Valley Road, Dallas, Texas 75244, USA (hereinafter “KTern”) and <Customer’s Name>, <Customer’s address> (hereinafter “Customer”)
+
+Relevant KTern Partner: <Partner’s Name and Address> (hereinafter “KTern Partner”)
+
+RECITAL
+
+WHEREAS, Customer has purchased or will purchase the right to use KTern Software for a certain period of time as set out in Schedule 1 from the KTern Partner.
+
+WHEREAS, KTern wants to grant Customer the right to use the KTern Software as set out in Schedule 1.
+
+WHEREAS KTern Partner has entered into a Partnership Agreement with KTern whereby KTern grants to KTern Partner the right to promote and market KTern Software
+
+NOW, THEREFORE, the Parties agree as follows:
+
+The customer agrees to use the KTern Software listed in Schedule 1 in accordance with the terms and conditions of the End User License Agreement (EULA).
+
+Under this Agreement, Customer only receives the right to use the KTern Software set out in Schedule 1; the fees for the KTern Software set out in Schedule 1 themselves are not contemplated under this Agreement. KTern does not accept any liability for the provision of KTern Software by the KTern Partner.
+
+Customer’s contact details for sending system notices are: System provisioning notification recipient name, System provisioning notification recipient e-mail: the system provisioning notification recipient name and e-mail address are necessary for system notice.
+
+
+1. USAGE RIGHTS AND RESTRICTIONS
+1.1 Grant of Rights
+
+Subject to all fees paid by the KTern Partner to KTern, KTern grants to Customer on behalf of KTern Partner a non-exclusive, non-transferable, and worldwide right to use the KTern Software, Materials, and Documentation solely for Customer’s and its Affiliates’ internal business operations. Permitted uses and restrictions of the KTern Software also apply to Materials and Documentation.
+
+1.2 Authorized Users
+
+Customers may permit Authorized Users to use the KTern Software. Usage is limited to the Usage Metrics and volumes stated in Schedule 1. Access credentials for the KTern Software may not be used by more than one individual but may be transferred from one individual to another if the original user is no longer permitted to use the KTern Software. The customer is responsible for breaches of the Agreement caused by Authorized Users.
+
+1.3 Authentication Terms and Conditions
+
+The KTern Software (a) generates and provides to the end-user via an API call, an authentication token (‘JWT Token’) generated in response to the request for such a token by the User on the login screen and (b) authenticates the token received to the end-user credentials after the KTern Software’s receipt via the API Call. A Token is a combination of numeric and alphanumeric characters with information of Customer full name and organization information. The token generated follows an algorithm of HS256 with a secret key stored as a ‘Salt Hash’ in the KTern Software. The token generated has an expiry period of 8 hours post which the user will be redirected to the login screen.
+
+1.4 Acceptable Use Policy
+
+With respect to the KTern Software, the Customer will not:
+
+disassemble, decompile, reverse-engineer, copy, translate or make derivative works,
+transmit any content or data that is unlawful or infringes any intellectual property rights, or
+circumvent or endanger its operation or security.
+1.5 Verification of Use
+
+Customer will monitor its own use of the KTern Software and report any use in excess of the Usage Metrics and volume to KTern Partner. KTern may monitor use to verify compliance with Usage Metrics, volume, and this Agreement. KTern will be permitted to forward any data regarding use in excess of the Usage Metrics, volume, and this Agreement by the Customer to KTern Partner.
+
+1.6 Suspension of KTern Software
+
+KTern may suspend use of the KTern Software if continued use may result in material harm to the KTern Software or its users. KTern will promptly notify the Customer of the suspension. KTern will limit the suspension in time and scope as reasonably possible under the circumstances.
+
+1.7 Third-Party Web services
+
+The KTern Software may include integrations with web services made available by third parties (other than KTern) that are accessed through the KTern Software and subject to terms and conditions with those third parties. These third-party web services are not part of the KTern Software and the Agreement does not apply to them.
+
+
+2. KTERN RESPONSIBILITIES
+2.1 Provision of purchased licenses
+
+KTern will (a) make the licenses and applicable documentation available to the Customer through the KTern Partner, (b) provide applicable KTern standard support for the purchased licenses to the Customer at no additional charge (c) use commercially reasonable efforts to make the purchased application available as per the System Availability percentage mentioned in Section 5.3, except for: (i) planned downtime (of which KTern shall give advance electronic notice), and (ii) any unavailability caused by circumstances beyond KTern’s reasonable control, including, for example, act of government, flood, fire, earthquake, civil unrest, act of terror, strike or other labor problem, Internet service provider failure or delay, and (d) provide the licenses in accordance with laws and government regulations of the United Kingdom.
+
+2.2 Protection of Customer Data
+
+KTern will maintain appropriate administrative, physical, and technical safeguards for protection of the security, confidentiality and integrity of Customer Data. Those safeguards will include, but will not be limited to, measures designed to prevent unauthorized access to or disclosure of Customer Data (other than by Customer or Users). For further reference to protection of Customer Data, visit https://ktern.com/gdpr-compliance.
+
+2.3 KTern Personnel
+
+KTern will be responsible for the performance of its personnel (including its employees and contractors) and their compliance with KTern’s obligations.
+
+2.4 Modifications
+
+The KTern Software and KTern Policies may be modified by KTern at any time. Modifications may include optional new features for the KTern Software, which Customer may use.
+
+
+3. CUSTOMER AND PERSONAL DATA
+3.1 Customer Data
+
+The customer is responsible for the Customer Data and entering it into the KTern Software. Customer grants to KTern a non-exclusive right to process Customer Data solely to provide and support the KTern Software.
+
+3.2 Personal Data
+
+Customers will collect and maintain all personal data contained in the Customer Data in compliance with applicable data privacy and protection laws.
+
+3.3 Security
+
+The customer will maintain reasonable security standards for its Authorized Users’ use of the KTern Software.
+
+3.4 Access to Customer Data
+
+During the Subscription Term, the Customer can access its Customer Data at any time. Customers may export and retrieve their Customer Data in a standard format. Export and retrieval may be subject to technical limitations, in which case KTern and Customer will find a reasonable method to allow Customer access to Customer Data.
+
+Before the Subscription Term expires, the Customer may use KTern’s self-service export tools (as available) to perform a final export of Customer Data from the KTern Software.
+
+At the end of the Agreement, KTern will delete the Customer Data remaining on servers hosting the KTern Software unless applicable law requires retention. Retained data is subject to the confidentiality provisions of the Agreement.
+
+In the event of third-party legal proceedings relating to the Customer Data, KTern will cooperate with the Customer and comply with applicable law (both at the Customer’s expense) with respect to the handling of the Customer Data.
+
+
+4. PARTNER RELATIONSHIP
+4.1 Non-Payment by KTern Partner
+
+KTern may at its sole discretion suspend the Customer’s use of the KTern Software and/or terminate the Agreement if the KTern Partner fails to pay any fee or other amount payable by it on its due date.
+
+4.2 Termination of KTern Partner relationship or orders relating to Customer
+
+If (a) KTern Partner terminates all orders relating to the Customer or (b) KTern terminates any of Partner’s orders relating to the Customer for good cause or (c) the partnership between KTern and the KTern Partner relating to the sale of licenses for the KTern Software is terminated, KTern may (depending on Customer’s choice):
+
+directly provide the KTern Software to the Customer pursuant to KTern’s then-current Terms and Conditions for mutually-agreed subscription fees; or
+recommend to Customer other KTern Partners for the provision of the affected KTern Software.
+4.3 Independence of KTern Partner
+
+KTern Partner is not an agent of KTern. It is an independent entity with no authority to bind KTern or to make representations or warranties on KTern’s behalf. KTern will not be liable for reasonably relying on the accuracy and reliability of written information provided by KTern Partner in making any decision that would give KTern ground to suspend the KTern Software or terminate the Agreement.
+
+4.4 No representations or warranties
+
+KTern makes no representations or warranties as to such authorized distributor or reseller, or any other third party, related to the performance of the products or services of such entities.
+
+
+5. WARRANTY AND DISCLAIMER
+KTern disclaims all representations, warranties, conditions, or guarantees with respect to the KTern Software express or implied, including without limitation, any implied warranties of merchantability, quality, or fitness for a particular purpose except to the extent that any warranties implied by law cannot be validly waived.
+
+5.1 Compliance with Law
+
+Customer warrants its current and continuing compliance with all laws and regulations applicable to it in connection with the Customer Data and Customer’s use of the KTern Software.
+
+5.2 Good Industry Practices
+
+KTern warrants that:
+
+the KTern Software will substantially conform to the specifications contained in the Documentation during the Subscription Term for the KTern Software.
+
+the KTern Software will materially conform to the specifications contained in the Documentation, EULA Agreement, statement of work, deployment description or other documentation containing the scope and service description in all cases agreed to by KTern. It will perform any Service in a workmanlike and professional manner using resources with the skills reasonably required to perform such services.
+
+5.3 Remedy
+
+Provided Customer (and/or the KTern Partner on Customer’s behalf) notifies KTern in writing with a specific description of the KTern Software’s or the Service’s nonconformance with the warranty in Section 5.2 within the warranty period without undue delay and KTern validates the existence of such nonconformance, KTern will, at its option:
+
+with regard to the KTern Software: correct or replace the nonconforming KTern Software, or if KTern fails to correct the nonconformance after using reasonable commercial efforts, terminate the access to the nonconforming KTern Software.
+with regard to the Services, re-perform the nonconforming Service
+This does not apply to trivial or non-material causes of nonconformance and is the Customer’s sole and exclusive remedy under the warranty in Section 5.2. The written notification of any nonconformance by Customer (and/or Partner on Customer’s behalf) must include sufficient detail for KTern to analyze the alleged nonconformance. The customer must provide commercially reasonable assistance to KTern in analyzing and remediating any nonconformance of the KTern Software.
+
+For clarification purposes, KTern will
+
+(i) with regard to KTern Software: in all cases; and
+
+(ii)with regard to the Services: if KTern fails to correct the nonconformance of the Service after using reasonable commercial effort, consult with KTern Partner to define a reasonable amount (α) by which KTern Partner may reduce the subscription fees or the fees for the nonconforming Service, in case KTern Partner has not already paid them, or (β) if KTern Partner has already paid the subscription fees or the fees for the nonconforming Service, which KTern will refund to KTern Partner to reflect the nonconformance.
+
+KTern may fulfill its warranty obligations, vis-à-vis KTern Partner or Customer. To the extent that KTern fulfills its warranty obligations vis-à-vis KTern Partner, the Customer will not have any claim against KTern for a breach of the warranty in Section 5.2
+
+5.3 System Availability
+
+KTern warrants to maintain average monthly system availability of 99.5% for the KTern Software.
+
+“Total Minutes in the Month” are measured 24 hours at 7 days a week during a Month.
+
+“Excluded Downtime” Total Minutes in the Month attributable to: (i) a Scheduled Downtime, or (ii) any Major Upgrade Window for which the customer has been notified in advance or (iii) unavailability caused by factors outside of KTern’s reasonable control, such as unpredictable and unforeseeable events that could not have been avoided even if reasonable care had been exercised.
+
+“Downtime” means the Total Minutes in the Month during which the productive version of the KTern Software is not available, except for Excluded Downtimes.
+
+5.4 Warranty Exclusions
+
+The warranties will not apply if:
+
+the KTern Software is not used in accordance with this EULA Agreement or Documentation,
+the nonconformance is caused by KTern Partner, Customer, another third party, or by any product, database, content or service not provided by KTern, or
+the KTern Software was provided for no fee or is a trial license of the KTern Software or both.
+5.5 Disclaimer
+
+Except as expressly provided in the Agreement, KTern does not make any representation or warranties, express or implied, statutory or otherwise, regarding any matter, including the merchantability, suitability, originality, or fitness for a particular use or purpose, non-infringement or results to be derived from the use of or integration with any products or services provided under the Agreement, or that the operation of any products or services will be secure, uninterrupted or error-free. The customer agrees that it is not relying on delivery of future functionality, public comments, or advertising of KTern or product roadmaps in obtaining subscriptions for the KTern Software.
+
+
+6. INTELLECTUAL PROPERTY RIGHTS
+6.1 KTern Ownership
+
+KTern, or their Affiliates own all intellectual property rights in and related to the KTern Software, Materials, Documentation, Services, design contributions, related knowledge or processes, and any derivative works of them. All rights not expressly granted to Customer are reserved to KTern.
+
+6.2 Customer Ownership
+
+Customer retains all rights in and related to the Customer Data. KTern may use Customer provided trademarks solely to provide and support the KTern Software.
+
+6.3 Non-Assertion of Rights
+
+Customer covenants, on behalf of itself and its successors and assigns, not to assert against KTern or their Affiliates, any rights, or any claims of any rights, in KTern Software, Materials, Documentation, or Services.
+
+
+7. CONFIDENTIALITY
+7.1 Use of Confidential Information
+
+The receiving party will protect all Confidential Information of the disclosing party as strictly confidential to the same extent it protects its own Confidential Information, and not less than a reasonable standard of care. Receiving party will not disclose any Confidential Information of the disclosing party to any person other than its personnel, representatives or Authorized Users whose access is necessary to enable it to exercise its rights or perform its obligations under the Agreement. Customer will not disclose the Agreement or the pricing to any third party.
+
+In the event of legal proceedings relating to the Confidential Information, the receiving party will cooperate with the disclosing party and comply with applicable law (all at disclosing party’s expense) with respect to handling of the Confidential Information.
+
+7.2 Publicity
+
+Neither party will use the name of the other party in publicity activities without the prior written consent of the other, except that Customer agrees that KTern may use Customer's name in customer listings or quarterly calls with its investors or, at times mutually agreeable to the parties, as part of KTern's marketing efforts (including reference calls and stories, press testimonials). Customer agrees that KTern may share information on Customer with its Affiliates for marketing and other business purposes and that it has secured appropriate authorizations to share Customer employee contact information with KTern.
+
+
+8. AUDIT
+8.1 KTern Audit
+
+During the license term for the KTern Software, the Customer will take reasonable steps to maintain complete and accurate records of the use of KTern Software sufficient to verify compliance with this EULA. No more than once per twelve (12) month period, the Customer will allow KTern and its auditors the right to examine such records and any applicable books, systems, and accounts, upon reasonable advanced notice, during the Customer’s normal business hours. If the audit discloses underpayment of license fees, the Customer will pay such license fees plus the reasonable cost of the audit within thirty (30) days of receipt of written notice.
+
+8.2 Customer Audit
+
+Customer or its independent third-party auditor reasonably acceptable to KTern (which shall not include any third-party auditors who are either a competitor of KTern or not suitably qualified or independent) may audit KTern’s control environment and security practices relevant to Customer Data processed by KTern only if:
+
+KTern has not provided sufficient evidence of its compliance with the technical and organizational measures that protect the production systems of KTern;
+A Personal Data Breach has occurred;
+An audit is formally requested by the Customer’s data protection authority; or
+Mandatory Data Protection Law provides Customer with a direct audit right and provided that Customer shall only audit once in any twelve-month period unless mandatory Data Protection Law requires more frequent audits.
+8.3 Scope of Audit
+
+Either party shall provide at least thirty days advance notice of any audit unless mandatory Data Protection Law or a competent data protection authority requires shorter notice. The frequency and scope of any audits shall be mutually agreed upon between the parties acting reasonably and in good faith. Audits shall be limited in time to a maximum of three business days. Beyond such restrictions, the parties will use current certifications or other audit reports to avoid or minimize repetitive audits. Either party shall provide the results of any audit to the other party.
+
+
+9. THIRD PARTY CLAIMS
+9.1 Claims Brought Against Customer
+
+KTern will defend Customer against claims brought against Customer and its Affiliates by any third party alleging that Customer’s and its Affiliates’ use of the KTern Software infringes or misappropriates a patent claim, copyright or trade secret right. KTern will indemnify Customer against all damages finally awarded against Customer (or the amount of any settlement KTern enters into) with respect to these claims.
+
+KTern’s obligations under Section 9.1 will not apply if the claim results from (i) Customer’s breach of Section 1, (ii) use of the KTern Software in conjunction with any product or service not provided by KTern, or (iii) use of the KTern Software provided for no fee.
+
+In the event a claim is made or likely to be made, KTern may (i) procure for Customer the right to continue using the KTern Software under the terms of the Agreement, or (ii) replace or modify the KTern Software to be non-infringing without a material decrease in functionality. If these options are not reasonably available, KTern may terminate Customer’s subscription to the affected KTern Software upon written notice.
+
+9.2 Claims Brought Against KTern
+
+Customer will defend KTern against claims brought against KTern by any third party related to Customer Data. Customer will indemnify KTern against all damages finally awarded against KTern (or the amount of any settlement Customer enters into) with respect to these claims.
+
+9.3 Third Party Claim Procedure
+
+The party against whom a third-party claim is brought will timely notify the other party in writing of any claim, reasonably cooperate in the defense and may appear (at its own expense) through counsel reasonably acceptable to the party providing the defense.
+
+The party that is obligated to defend a claim will have the right to fully control the defense.
+
+Any settlement of a claim will not include a financial or specific performance obligation on, or admission of liability by, the party against whom the claim is brought.
+
+9.4 Exclusive Remedy
+
+The provisions of Section 9 state the sole, exclusive, and entire liability of the parties, their Affiliates, Business Partners and subcontractors to the other party, and is the other party’s sole remedy, with respect to covered third party claims and to the infringement or misappropriation of third party intellectual property rights.
+
+
+10.LIMITATION OF LIABILITY
+10.1 Not Responsible
+
+KTern and its affiliates will not be for any KTern Partner and/or Customer activities not permitted under this Agreement including without limitation to the extent that any liability arises from (i) if the KTern Software is not used in accordance with the Documentation, or (ii) if the defect or liability is caused by KTern Partner, Customer or any third-party product or service, or (iii) if the KTern Software is used in conjunction with any product or service not provided by KTern, or (iv) for any Customer activities not permitted under this Agreement. KTERN AND ITS AFFILIATES WILL NOT BE LIABLE FOR ANY CLAIMS OR DAMAGES ARISING FROM INHERENTLY DANGEROUS USE OF THE KTERN SOFTWARE PROVIDED UNDER OR IN CONNECTION WITH THIS AGREEMENT.
+
+10.2 Exclusion of Damages; Limitation of Liability
+
+Anything to the contrary herein notwithstanding, except for (a) damages resulting from (i) unauthorized use or disclosure of Confidential Information; and (ii) death or personal injury arising from either party’s gross negligence or arising from either party’s willful misconduct or (b) KTern’s obligations under Section 9.1 or (c) Customer’s obligations under Section 9.2, under no circumstances and regardless of the nature of any claim will KTern or Customer be liable to each other or any other person or entity for an amount in excess of the subscription fees paid by Customer to KTern Partner in the twelve months period immediately preceding the events giving rise to the claim for the KTern Software directly causing the damages or be liable in any amount for special, incidental, consequential or indirect damages, loss of good will or profits, work stoppage, data loss, computer failure or malfunction, attorney’s fees, court costs, interest or exemplary or punitive damages.
+
+10.3 Risk Allocation
+
+This Agreement allocates the risks between KTern and Customer. The subscription fees paid by Customer reflect this allocation of risk and limitations of liability. It is expressly understood and agreed that each and every provision of this Agreement which provides for a limitation of liability, disclaimer of warranties or exclusion of damages, is intended by the parties to be severable and independent of any other provision and to be enforced as such.
+
+10.4 Extension to group members
+
+Any limitations to the liability and obligations of KTern according to this Section 10 will also apply for the benefit of any of KTern’s Affiliates.
+
+
+11. TERM AND TERMINATION
+11.1 Term
+
+The initial Subscription Term is as stated in Schedule 1 of this Agreement.
+
+11.2 Termination
+
+A party may terminate the Agreement:
+
+upon thirty days written notice of the other party’s material breach (including without limitation Customer’s failure to pay Partner any fees due for the KTern Software) unless the breach is cured during that thirty-day period,
+immediately, if the other party files for bankruptcy, becomes insolvent, or makes an assignment for the benefit of creditors, or otherwise materially breaches Sections 7 or 13.6.
+11.3 Effect of Expiration or Termination
+
+Upon the effective date of expiration or termination of the Agreement:
+
+Customer’s right to use the KTern Software and all KTern Confidential Information will end,
+Confidential Information of the disclosing party will be returned or destroyed as required by the Agreement.
+
+12. GOVERNING LAW
+This agreement shall be governed and determined in accordance with the laws of England and Wales. The Parties agree, in respect of all matters arising out of this EULA Agreement, to the exclusive jurisdiction of the courts of London, United Kingdom.
+
+
+13. MISCELLANEOUS
+13.1 Severability
+
+If any provision of the Agreement is held to be invalid or unenforceable, the invalidity or unenforceability will not affect the other provisions of the Agreement.
+
+13.2 No Waiver
+
+A waiver of any breach of the Agreement is not deemed a waiver of any other breach.
+
+13.3 Electronic Signature
+
+Electronic signatures that comply with applicable law are deemed original signatures.
+
+13.4 Regulatory Matters
+
+KTern Confidential Information is subject to export control laws of various countries, including the laws of the United States and EU. Customer will not submit KTern Confidential Information or parts thereof to any government agency for licensing consideration or other regulatory approval, and will not export, re-export or import any KTern Confidential Information or parts thereof to countries, persons or entities if prohibited by export laws.
+
+KTern does not assume any responsibility or liability:
+
+for any delay caused in the delivery and/or granting of access to any or all KTern Confidential Information of parts thereof due to export or import authorizations or both having to be obtained from the competent authorities;
+if any required authorization, approval or other consent for the delivery of and/or granting of access to any or all KTern Confidential Information or parts thereof cannot be obtained from the competent authorities;
+if the delivery of and/or granting of access to any or all KTern Confidential Information or parts thereof is prevented due to applicable Export Laws; and
+if access to the KTern Software, or other services has to be limited, suspended or terminated due to applicable Export Law.
+KTern may terminate this Agreement with thirty days prior written notice if KTern may not deliver or grant access to the KTern Confidential Information to Customer due to an embargo, trade sanction or other comparable restrictive measure, which is expected to be in place for six months or longer.
+13.5 Notices
+
+All notices will be in writing and given when delivered to the address set forth in this EULA Agreement with copy to the legal department. Notices by KTern relating to the operation or support of the KTern Software may be in the form of an electronic notice to Customer’s authorized representative or administrator identified in this Agreement.
+
+13.6 Assignment
+
+Without KTern’s prior written consent, Customer may not assign or transfer the Agreement (or any of its rights or obligations) to any party.
+
+13.7 Relationship of the Parties
+
+The parties are independent contractors, and no partnership, franchise, joint venture, agency, fiduciary or employment relationship between the parties is created by this Agreement.
+
+13.8 Force Majeure
+
+Any delay in performance (other than for the payment of amounts due) caused by conditions beyond the reasonable control of the performing party is not a breach of the Agreement. The time for performance will be extended for a period equal to the duration of the conditions preventing performance.
+
+13.9 Arbitration
+
+One or more arbitrators appointed in accordance with the following: (i) Arbitration by One Arbitrator: If the Parties agree to a one-arbitrator, the parties shall agree upon and appoint an arbitrator, after first ascertaining that the appointee consents to act, within thirty (30) days from the date on which written notice of referral to arbitration by one party is received by the other party (the "Notice Date") or (ii) Arbitration by Three Arbitrators: If the Parties are unable to agree on a one-arbitrator, or, having so agreed, are unable to agree on the arbitrator within thirty (30) days from the Notice Date, then the arbitration shall be conducted by and before three (3) arbitrators, who shall be appointed as follows. Each Party shall appoint one arbitrator, after first ascertaining that the appointee consents to act, and notify the other Party in writing of the appointment within sixty (60) days from the Notice Date. The appointed arbitrators shall agree upon and appoint the third arbitrator, who shall be the chairman, after first ascertaining that the appointee consents to act, and notify the Parties in writing of the appointment within ninety (90) days from the Notice Date. The chairman shall be a qualified lawyer, and the other arbitrators shall have a background or training in computer law, computer science, or marketing of computer products. The arbitrators shall have the authority to grant injunctive relief, in a form substantially similar to that which would otherwise be granted by a court of law. The Parties irrevocably agree to submit to arbitration and the Parties each agree that any award made by the arbitrators shall be enforceable in any country, without further inquiry into the disputed matters which are the subject of the award. The provisions of this section shall survive termination of this Agreement.
+
+13.10 Entire Agreement
+
+The Agreement constitutes the complete and exclusive statement of the agreement between KTern and Customer in connection with the parties’ business relationship related to the subject matter of the Agreement. All previous representations, discussions, and writings (including any confidentiality agreements) are merged in and superseded by the Agreement and the parties disclaim any reliance on them. The Agreement may be modified solely in writing signed by both parties. An Agreement will prevail over terms and conditions of any Customer-issued purchase order, which will have no force and effect, even if KTern accepts or does not otherwise reject the purchase order.
+
+Glossary
+“Affiliate” of a party means any legal entity in which a party, directly or indirectly, holds more than fifty percent (50%) of the entity’s shares or voting rights. Any legal entity will be considered an Affiliate as long as that interest is maintained
+
+“Agreement” means this KTern End User License Agreement (EULA)
+
+“Authorized User” means any individual to whom Customer grants access authorization to use the KTern Software that is an employee, agent, contractor or representative of
+
+Customer,
+Customer's Affiliates, and/or
+Customer’s and Customer’s Affiliates’
+“Materials” mean any materials provided or developed by KTern in the course of performance under the Agreement, including in the delivery of any support or Services to Customer. Materials do not include the Customer Data, Customer Confidential Information
+
+“Confidential Information" means
+
+with respect to Customer: (i) the Customer Data, (ii) Customer marketing and business requirements, (iii) Customer implementation plans, and/or (iv) Customer financial information, and
+with respect to KTern: (i) the KTern Software, Documentation, Materials (ii) information regarding KTern research and development, product offerings, pricing and availability
+Confidential Information of either KTern or Customer also includes information which the disclosing party protects against unrestricted disclosure to others that (i) the disclosing party or its representatives designates as confidential at the time of disclosure, or (ii) should reasonably be understood to be confidential given the nature of the information and the circumstances surrounding its disclosure
+“Customer Data” means any content, materials, data and information that Authorized Users enter into the KTern Software or that Customer derives from its use of and stores in the KTern Software (e.g. Customer-specific reports).
+
+“Documentation” means KTern's then-current technical and functional documentation as well as any roles and responsibilities descriptions, if applicable, for the KTern Software which is made available to Customer.
+
+“Subscription Term” means the term of the KTern Software subscription, including all renewals.

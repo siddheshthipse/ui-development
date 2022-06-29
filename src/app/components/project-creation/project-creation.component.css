@@ -1,0 +1,86 @@
+.black-border {
+  border: 1px solid black;
+}
+
+.kt-button {
+  color: white;
+  background-color: #a21129;
+  border-color: #a21129;
+}
+
+.kt-button-default {
+  color: #a21129;
+  border-color: #a21129;
+}
+
+.kternButton {
+  color: #e13f00;
+  border-color: #e13f00;
+}
+
+.kternButton:hover {
+  color: white;
+  background-color: #e13f00;
+  border-color: #e13f00;
+}
+
+.card{
+  border-left: 3px solid #a21129;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-content-hover {
+  opacity: 0.3;
+}
+
+.action-buttons {
+  opacity: 0;
+  transition: opacity 1s;
+}
+.action-buttons-hover {
+  opacity: 1;
+}
+
+.trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.trigger:hover {
+  color: #1890ff;
+}
+
+.logo {
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px;
+}
+
+nz-header {
+  background: #fff;
+  padding: 0;
+}
+
+nz-content {
+  margin: 0 16px;
+}
+
+nz-breadcrumb {
+  margin: 16px 0;
+}
+
+.inner-content {
+  padding: 24px;
+  background: #fff;
+  min-height: 85vh;
+}
+
+nz-footer {
+  text-align: center;
+}

@@ -1,0 +1,186 @@
+<nz-layout>
+    <nz-header>
+    </nz-header>
+    <div class="row mt-2 mb-2 ml-1 mr-2">
+        <div class="col-md-12">
+            PROJECT CREATION
+        </div>
+        <div class="col-md-12">
+            <h5>Select your Transformation Project Template</h5>
+        </div>
+    </div>
+    <nz-layout>
+        <nz-sider [nzWidth]="220" nzTheme="light" nzCollapsible [(nzCollapsed)]="isCollapsed" [nzTrigger]="null">
+            <ul nz-menu nzTheme="light" nzMode="inline" [nzInlineCollapsed]="isCollapsed">
+                <li nz-submenu nzTitle="Use Case" nzOpen="true">
+                    <!-- <input class="ml-2" nz-input placeholder="Search Use Case" nzSize="small" style="width: 184px"/> -->
+                    <ul style="height: 200px;overflow-x: hidden;overflow-y: scroll;">
+                        <li nz-menu-item><label nz-checkbox [(ngModel)]="checked">All</label></li>
+                        <li nz-menu-item><label nz-checkbox [(ngModel)]="checked">Greenfield</label></li>
+                        <li nz-menu-item><label nz-checkbox [(ngModel)]="checked">Testing</label></li>
+                        <li nz-menu-item><label nz-checkbox [(ngModel)]="checked">Brownfield</label></li>
+                        <li nz-menu-item><label nz-checkbox [(ngModel)]="checked">Testing</label></li>
+                        <li nz-menu-item><label nz-checkbox [(ngModel)]="checked">Greenfield</label></li>
+                        <li nz-menu-item><label nz-checkbox [(ngModel)]="checked">Testing</label></li>
+                        <li nz-menu-item><label nz-checkbox [(ngModel)]="checked">Greenfield</label></li>
+                        <li nz-menu-item><label nz-checkbox [(ngModel)]="checked">Testing</label></li>
+                    </ul>
+                </li>
+                <li nz-submenu nzTitle="Industry">
+                    <!-- <input nz-input placeholder="Search Industry Vertical" nzSize="small" style="width: 184px"/> -->
+                    <ul style="height: 200px;overflow-x: hidden;overflow-y: scroll;">
+                        <li nz-menu-item><label nz-checkbox [(ngModel)]="checked">All</label></li>
+                        <li nz-menu-item><label nz-checkbox [(ngModel)]="checked">Automotive</label></li>
+                        <li nz-menu-item><label nz-checkbox [(ngModel)]="checked">Public Sector</label></li>
+                        <li nz-menu-item><label nz-checkbox [(ngModel)]="checked">Brownfield</label></li>
+                        <li nz-menu-item><label nz-checkbox [(ngModel)]="checked">Testing</label></li>
+                        <li nz-menu-item><label nz-checkbox [(ngModel)]="checked">Greenfield</label></li>
+                        <li nz-menu-item><label nz-checkbox [(ngModel)]="checked">Testing</label></li>
+                        <li nz-menu-item><label nz-checkbox [(ngModel)]="checked">Greenfield</label></li>
+                        <li nz-menu-item><label nz-checkbox [(ngModel)]="checked">Testing</label></li>
+                    </ul>
+                </li>
+                <li nz-submenu nzTitle="Product">
+                    <!-- <input nz-input placeholder="Search Product" nzSize="small" style="width: 184px"/> -->
+                    <ul style="height: 200px;overflow-x: hidden;overflow-y: scroll;">
+                        <li nz-menu-item><label nz-checkbox [(ngModel)]="checked">All</label></li>
+                        <li nz-menu-item><label nz-checkbox [(ngModel)]="checked">SAP ECC</label></li>
+                        <li nz-menu-item><label nz-checkbox [(ngModel)]="checked">SAP S/4HANA</label></li>
+                        <li nz-menu-item><label nz-checkbox [(ngModel)]="checked">SAP Ariba</label></li>
+                        <li nz-menu-item><label nz-checkbox [(ngModel)]="checked">Success Factors</label></li>
+                        <li nz-menu-item><label nz-checkbox [(ngModel)]="checked">Greenfield</label></li>
+                        <li nz-menu-item><label nz-checkbox [(ngModel)]="checked">Testing</label></li>
+                        <li nz-menu-item><label nz-checkbox [(ngModel)]="checked">Greenfield</label></li>
+                        <li nz-menu-item><label nz-checkbox [(ngModel)]="checked">Testing</label></li>
+                    </ul>
+                </li>
+                <li nz-submenu nzTitle="Line of Business">
+                    <!-- <input nz-input placeholder="Search Line of Business" nzSize="small" style="width: 184px"/> -->
+                    <ul style="height: 200px;overflow-x: hidden;overflow-y: scroll;">
+                        <li nz-menu-item><label nz-checkbox [(ngModel)]="checked">All</label></li>
+                        <li nz-menu-item><label nz-checkbox [(ngModel)]="checked">Finance</label></li>
+                        <li nz-menu-item><label nz-checkbox [(ngModel)]="checked">Supply Chain</label></li>
+                        <li nz-menu-item><label nz-checkbox [(ngModel)]="checked">Brownfield</label></li>
+                        <li nz-menu-item><label nz-checkbox [(ngModel)]="checked">Testing</label></li>
+                        <li nz-menu-item><label nz-checkbox [(ngModel)]="checked">Greenfield</label></li>
+                        <li nz-menu-item><label nz-checkbox [(ngModel)]="checked">Testing</label></li>
+                        <li nz-menu-item><label nz-checkbox [(ngModel)]="checked">Greenfield</label></li>
+                        <li nz-menu-item><label nz-checkbox [(ngModel)]="checked">Testing</label></li>
+                    </ul>
+                </li>
+            </ul>
+        </nz-sider>
+        <nz-content>
+            <!-- <button *ngIf="isCollapsed" (click)="toggleCollapsed()" nz-button nzType="primary"
+                style="margin-bottom: 8px;">
+                <i class="fas fa-angle-double-right"></i>
+            </button>
+            <button *ngIf="!isCollapsed" (click)="toggleCollapsed()" nz-button nzType="primary"
+                style="margin-bottom: 8px;">
+                <i class="fas fa-angle-double-left"></i>
+            </button> -->
+            <div class="inner-content">
+                <div class="row">
+                    <div class="col-md-6 d-flex justify-content-start mt-1">
+                        Showing {{templateCount}} of 105 project templates
+                    </div>
+                    <div class="col-md-6 d-flex justify-content-end">
+                        <nz-input-group [nzSuffix]="suffixIconSearch">
+                            <input nz-input [(ngModel)]="searchText" placeholder="Search for project templates"/>
+                        </nz-input-group>
+                        <ng-template #suffixIconSearch>
+                            <i nz-icon nzType="search"></i>
+                        </ng-template>
+                    </div>
+                </div>
+                <div class="row">
+                    <div *ngFor="let portfolio of portfolioInfo | projectTemplateFilter: searchText; let i = index;" class="col-md-4">
+                        <div class="card mt-3" (mouseover)="mouseOverCard(i)" (mouseout)="mouseOutCard()">
+                            <div
+                                style="position:absolute; z-index:10;width: 100%;height: 100%;">
+                                <div class="col-md-12 d-flex flex-column align-items-center" style="margin-top: 18%;">
+                                    <div>
+                                        <button class="kt-button-default action-buttons" [ngClass]="{'action-buttons-hover':specialEffects === true && activeCard == i}" nz-button nzType="default"
+                                            (click)="showTerms()">View
+                                            Model Template</button>
+                                    </div>
+                                    <div class="mt-3">
+                                        <button class="kt-button action-buttons" [ngClass]="{'action-buttons-hover':specialEffects === true && activeCard == i}" nz-button nzType="default" (click)="showTerms()">
+                                            Edit Template</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h6 class="card-title" style="height: 40px;">{{portfolio.title}}</h6>
+                                <div class="card-content" [ngClass]="{'card-content-hover':specialEffects === true && activeCard == i}">
+                                    <div class="card-subtitle flex-wrap mb-2" style="height: 50px;">
+                                        <nz-tag class="mt-1" [nzColor]="'#108ee9'">Automotive</nz-tag>
+                                        <nz-tag class="mt-1" [nzColor]="'#108ee9'">Planning</nz-tag>
+                                        <nz-tag class="mt-1" [nzColor]="'#108ee9'">Transformation Project</nz-tag>
+                                    </div>
+                                    <p class="card-text" style="height: 40px;overflow: hidden;">This project provides a
+                                        digital workspace for transformation,
+                                        planning, governance and optimization</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-12 d-flex justify-content-center">
+                        <nz-pagination [nzPageIndex]="1" [nzTotal]="500"></nz-pagination>
+                    </div>
+                </div>
+            </div>
+        </nz-content>
+    </nz-layout>
+</nz-layout>
+
+<!-- TERMS AND CONDITION MODAL -->
+<nz-modal nzWidth="1000" [(nzVisible)]="tncVisible" [nzTitle]="modalTitle" [nzContent]="modalContent"
+    [nzFooter]="modalFooter" (nzOnCancel)="onDeclineTerms()" (nzOnOk)="onAgreeTerms()">
+    <ng-template #modalTitle>
+        <div class="row">
+            <div class="col-md-12" style="text-align: center;font-size: 20px;">
+                Terms of Use
+            </div>
+        </div>
+    </ng-template>
+
+    <ng-template #modalContent>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="d-flex flex-column">
+                    <iframe style="height: 200px;" src="./../../../assets/kt-eula.txt"
+                        title="KTern Terms of Use"></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 justify-content-center">
+                <div class="d-flex flex-column">
+                    <div class="mt-3">
+                        <label nz-checkbox [(ngModel)]="tncAgreed">I have read the Terms & Conditions and hereby confirm
+                            that it will govern my use of this KTern.AI software.</label>
+                    </div>
+                    <div class="mt-2">
+                        <label nz-checkbox [(ngModel)]="eulaAgreed">I agree to the End User License Agreement.</label>
+                    </div>
+                    <div class="mt-3">
+                        You can find information about how KTern.AI governs its policies in the <a
+                            href="https://ktern.com/trust-center">KTern.AI Trust Center</a>.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </ng-template>
+
+    <ng-template #modalFooter>
+        <div class="row">
+            <div class="col-md-12 d-flex justify-content-center">
+                <button nz-button nzType="primary" class="kt-button" (click)="navigateToEditTemplate()">Accept and
+                    Continue</button>
+            </div>
+        </div>
+    </ng-template>
+</nz-modal>
