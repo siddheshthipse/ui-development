@@ -1,1 +1,73 @@
-<router-outlet></router-outlet>
+<nz-layout class="left-layout">
+    <nz-sider nzTheme="dark" nzCollapsible [(nzCollapsed)]="isCollapsed" nzWidth="200px">
+        <div class="logo"></div>
+        <ul nz-menu nzTheme="dark" nzMode="inline" [nzInlineCollapsed]="isCollapsed">
+            <li id="sidenav-user" nz-submenu nzTitle="User" nzIcon="user">
+                <ul>
+                    <li id="sidenav-dashboard" nz-menu-item (click)="navigateTo('')">Dashboard</li>
+                    <li id="sidenav-workplace" nz-menu-item (click)="navigateTo('workplace')">Workplace</li>
+                    <li nz-menu-item>Task</li>
+                    <li nz-menu-item>Issue</li>
+                    <li nz-menu-item>Signoff</li>
+                    <li nz-menu-item>Test Case</li>
+                </ul>
+            </li>
+            <li nz-submenu nzTitle="Team" nzIcon="team">
+                <ul>
+                    <li nz-menu-item>Team 1</li>
+                    <li nz-menu-item>Team 2</li>
+                    <li nz-menu-item>Team 3</li>
+                    <li nz-menu-item>Team 4</li>
+                    <li nz-menu-item>Team 5</li>
+                    <li nz-menu-item>Team 6</li>
+                </ul>
+            </li>
+            <li nz-menu-item>
+                <i nz-icon nzType="file"></i>
+                <span>File</span>
+            </li>
+        </ul>
+    </nz-sider>
+    <nz-layout class="right-layout">
+        <nz-header>
+            <!-- HEADER CONTENT WILL COME HERE -->
+        </nz-header>
+        <nz-content>
+            <nz-breadcrumb>
+                <nz-breadcrumb-item>Home</nz-breadcrumb-item>
+                <nz-breadcrumb-item>Dashboard</nz-breadcrumb-item>
+            </nz-breadcrumb>
+            <div class="inner-content">
+                <!-- MAIN CONTENT WILL COME HERE -->
+                <!-- <div class="row" style="border: 1px solid black;">
+                    <div class="col-md-6">
+                        BOOTSTRAP
+                    </div>
+                    <div class="col-md-6">
+                        IS ENABLED
+                    </div>
+                </div> -->
+                <!-- <div class="row">
+                    <div class="col-md-3"><button id="step1" nz-button nzType="primary"
+                            (click)="filterClick('projectManager')">Button
+                            1</button></div>
+                    <div class="col-md-3"><button id="step2" nz-button nzType="primary" (click)="gotoStep2()">Button
+                            2</button></div>
+                    <div class="col-md-3"><button id="step3" nz-button nzType="primary">Button 3</button></div>
+                    <div class="col-md-3"><button id="step4" nz-button nzType="primary">Button 4</button></div>
+                </div>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <div class="row">
+                    <div class="col-md-3"><button id="step5" nz-button nzType="primary"
+                            (click)="filterClick('projectManager')">Button
+                            1</button></div>
+                    <div class="col-md-3"><button id="step6" nz-button nzType="primary" (click)="gotoStep2()">Button
+                            2</button></div>
+                    <div class="col-md-3"><button id="step7" nz-button nzType="primary">Button 3</button></div>
+                    <div class="col-md-3"><button id="step8" nz-button nzType="primary">Button 4</button></div>
+                </div> -->
+                <router-outlet></router-outlet>
+            </div>
+        </nz-content>
+    </nz-layout>
+</nz-layout>

@@ -22,11 +22,13 @@ const icons: IconDefinition[] = Object.keys(antDesignIcons).map(key => antDesign
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { WorkplaceComponent } from './components/workplace/workplace.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DashboardComponent
+    DashboardComponent,
+    WorkplaceComponent
   ],
   imports: [
     BrowserModule,

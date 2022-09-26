@@ -9,20 +9,20 @@ nz-header {
   padding: 0;
 }
 
-.left-layout {
+/* .left-layout {
   height: 100vh;
-}
+} */
 
-.right-layout {
+/* .right-layout {
   margin-left: 0px;
-}
+} */
 
-nz-sider {
+/* nz-sider {
   overflow: auto;
   height: 100%;
 
   left: 0;
-}
+} */
 
 nz-content {
   margin: 24px 16px 0;
