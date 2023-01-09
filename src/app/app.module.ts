@@ -22,6 +22,8 @@ const icons: IconDefinition[] = Object.keys(antDesignIcons).map(key => antDesign
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -37,7 +39,7 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
     NgZorroAntdModule, 
     BrowserAnimationsModule, 
     ScrollingModule, 
-    DragDropModule
+    DragDropModule, ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [{ provide: NZ_I18N, useValue: en_US }, { provide: NZ_ICONS, useValue: icons } ],
   bootstrap: [AppComponent]
